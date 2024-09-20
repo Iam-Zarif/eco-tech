@@ -5,7 +5,7 @@ import arrow from "../../../public/icons/home/cover/arrow-up-right.svg"
 import Link from "next/link";
 const HomeCover = () => {
   return (
-    <div className="mt-12 lg:mt-24 ">
+    <div className="mt-10 lg:mt-16 ">
       <p className="text-center lg:text-cover lg:max-w-5xl lg:leading-[7rem] mx-auto text-4xl font-bold">
         Innovating for a Greener Future
       </p>

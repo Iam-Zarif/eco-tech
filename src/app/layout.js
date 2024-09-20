@@ -12,11 +12,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`bg-armorWash text-white  2xl:max-w-[1800px]  mx-auto `}
-      >
+      <body className="bg-armorWash">
         <Navbar />
-        {children}
+        <div className={` text-white   2xl:max-w-[1800px]  mx-auto `}>
+          {" "}
+          {children}
+        </div>
       </body>
     </html>
   );
