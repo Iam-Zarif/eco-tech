@@ -62,10 +62,10 @@ const ContactUs = () => {
                   </button>
                 </div>
                 <div className="flex items-center mt-8 justify-end gap-9">
-                  <Image src={facebook} width={18}></Image>
-                  <Image src={twitter} width={18}></Image>
-                  <Image src={instagram} width={18}></Image>
-                  <Image src={linkedin} width={18}></Image>
+                  <Image alt="icon" src={facebook} width={18}></Image>
+                  <Image alt="icon" src={twitter} width={18}></Image>
+                  <Image alt="icon" src={instagram} width={18}></Image>
+                  <Image alt="icon" src={linkedin} width={18}></Image>
                 </div>
               </div>
             </div>
