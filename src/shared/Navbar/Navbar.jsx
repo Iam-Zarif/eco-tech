@@ -14,7 +14,7 @@ const Navbar = () => {
     const navbar = (
       <>
         {" "}
-        <div className="flex items-center justify-between">
+        <div className="flex bg-black mt-5 items-center justify-between">
           <p className="text-2xl font-bold">Logo</p>
           <div className="hidden md:block">
             <div className=" items-center gap-10 flex ">
