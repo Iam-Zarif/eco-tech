@@ -18,13 +18,13 @@ const Navbar = () => {
           <p className="text-2xl font-bold">Logo</p>
           <div className="hidden md:block">
             <div className=" items-center gap-10 flex ">
-              <Link href="/" className="hover:text-gray-300">
+              <Link href="/" className="hover:text-gray-300 font-bold">
                 Home
               </Link>
-              <Link href="/about" className="hover:text-gray-300">
+              <Link href="/about" className="hover:text-gray-300 font-light">
                 About Us
               </Link>
-              <div className="flex items-center gap-2 hover:text-gray-300">
+              <div className="flex group items-center gap-2 hover:text-gray-300 font-light">
                 <Link href="/services">Services</Link>
                 <Image
                   src={arrow}
@@ -32,9 +32,10 @@ const Navbar = () => {
                   loading="lazy"
                   height={20}
                   width={20}
+                  className="group-hover:translate-y-[2px] cursor-pointer transition-all duration-300"
                 ></Image>
               </div>
-              <Link href="/contact" className="hover:text-gray-300">
+              <Link href="/contact" className="hover:text-gray-300 font-light">
                 Contact
               </Link>
             </div>
