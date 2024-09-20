@@ -32,10 +32,10 @@ const ContactUs = () => {
           />
         </div>
 
-        <div className="absolute lg:w-[42%] lg:top-[20rem] left-1/2 transform -translate-x-1/2">
+        <div className="absolute lg:w-[42%] lg:top-[20rem] top-[15%] md:w-[70%] w-[90%] left-1/2 transform -translate-x-1/2">
           <div className="w-full bg-[#8DD147] text-sm rounded-lg px-10 pt-6 pb-4">
             <div className="grid grid-cols-12 ">
-              <div className="col-span-3 flex items-start flex-col gap-3">
+              <div className="lg:col-span-3 col-span-6 flex items-start flex-col gap-3">
                 <Link href="/blog">Blog</Link>
                 <Link href="/faq">FAQ</Link>
                 <Link href="/career">Careers</Link>
@@ -48,7 +48,7 @@ const ContactUs = () => {
                   <Link href="/clients">Clients</Link>
                 </div>
               </div>
-              <div className="col-span-6">
+              <div className="col-span-12 mt-6 lg:mt-0 lg:col-span-6">
                 <div className="relative h-12">
                   <input
                     type="text"
