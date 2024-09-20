@@ -12,8 +12,14 @@ module.exports = {
         hulk: "#008000",
         misdusmmer: "#8DD147",
         armorWash: "#030301",
+        cardHover: "#8DD147",
       },
-     
+      fontSize: {
+        cover: "80px",
+        title: "60px",
+        subTItle: "40px",
+        heading: "30px",
+      },
     },
   },
   plugins: [],

@@ -1,8 +1,8 @@
 "use client"
 import Link from "next/link";
-import arrow from "../../../public/icons/navbar/arrow.svg";
+import arrow from "../../../public/icons/home/navbar/arrow.svg";
 import Image from "next/image";
-import Menu from "../../../public/icons/navbar/menu.png"
+import Menu from "../../../public/icons/home/navbar/menu.png"
 import { useState } from "react";
 
 const Navbar = () => {
@@ -18,13 +18,13 @@ const Navbar = () => {
           <p className="text-2xl font-bold">Logo</p>
           <div className="hidden md:block">
             <div className=" items-center gap-10 flex ">
-              <Link href="/" className="hover:text-gray-300 font-bold">
+              <Link href="/" className="hover:text-gray-300 ">
                 Home
               </Link>
-              <Link href="/about" className="hover:text-gray-300 font-light">
+              <Link href="/about" className="hover:text-gray-300 t">
                 About Us
               </Link>
-              <div className="flex group items-center gap-2 hover:text-gray-300 font-light">
+              <div className="flex group items-center gap-2 hover:text-gray-300 t">
                 <Link href="/services">Services</Link>
                 <Image
                   src={arrow}
@@ -35,7 +35,7 @@ const Navbar = () => {
                   className="group-hover:translate-y-[2px] cursor-pointer transition-all duration-300"
                 ></Image>
               </div>
-              <Link href="/contact" className="hover:text-gray-300 font-light">
+              <Link href="/contact" className="hover:text-gray-300 t">
                 Contact
               </Link>
             </div>
@@ -54,10 +54,10 @@ const Navbar = () => {
       </>
     );
   return (
-    <div className=" 2xl:max-w-[1850px] px-5 xl:px-10   mx-auto py-4">
+    <div className="px-5 xl:px-10 ">
       {navbar}
       {menu && (
-        <div className="duration-500 transition-transform">
+        <div className="bg-black h-screen duration-500 transition-transform">
           <div className="h-[1px] w-full bg-gray-600 mt-5">
             <div className="flex justify-start items-start pt-4  flex-col">
               <Link href="/" className="py-3">

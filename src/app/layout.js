@@ -13,9 +13,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`bg-armorWash text-white`}
+        className={`bg-armorWash text-white  2xl:max-w-[1800px]  mx-auto `}
       >
-        <Navbar/>
+        <Navbar />
         {children}
       </body>
     </html>
