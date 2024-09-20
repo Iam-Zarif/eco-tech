@@ -1,4 +1,5 @@
 
+import Navbar from "@/shared/Navbar/Navbar";
 import "./globals.css";
 
 
@@ -12,8 +13,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={``}
+        className={`bg-armorWash text-white`}
       >
+        <Navbar/>
         {children}
       </body>
     </html>

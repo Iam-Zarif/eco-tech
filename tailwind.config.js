@@ -8,6 +8,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        hulk: "#008000",
+        misdusmmer: "#8DD147",
+        armorWash: "#030301",
+      },
      
     },
   },
